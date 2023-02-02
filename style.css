@@ -1,0 +1,276 @@
+﻿#CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #282a36;
+    padding: 20px;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+        color: #f8f8f2;
+    }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: #282a36;
+    padding: 20px;
+}
+
+    #about h2 {
+        margin-bottom: 10px;
+    }
+
+#experience, #skills {
+    background-color: #282a36;
+    padding: 20px;
+}
+
+    #experience h2, #skills h2 {
+        margin-bottom: 10px;
+    }
+
+    #experience h3, #skills h3 {
+        margin-bottom: 5px;
+    }
+
+.footer {
+    background-color: #6272a4;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    object-fit: contain;
+    object-position: center bottom;
+    width: 150px;
+    height: 150px;
+}
+.sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+    .contact p:last-child {
+        margin-right: 0;
+    }
+
+.degree {
+    margin-bottom: 20px;
+}
+
+.degree h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.degree ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .degree ul li {
+        margin-bottom: 5px;
+    }
+
+.organisasi {
+    margin-bottom: 20px;
+}
+
+.organisasi h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.organisasi ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .organisasi ul li {
+        margin-bottom: 5px;
+    }
+
+.keterampilan {
+    margin-bottom: 20px;
+}
+
+.keterampilan h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.keterampilan ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .keterampilan ul li {
+        margin-bottom: 5px;
+    }
+
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .item ul li {
+        margin-bottom: 5px;
+    }
+
+.sub-item {
+    margin-bottom: 20px;
+}
+
+.sub-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .sub-item ul li {
+        margin-bottom: 5px;
+    }
+
+.sub-sub-item {
+    margin-bottom: 20px;
+}
+
+.sub-sub-item h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-sub-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .sub-sub-item ul li {
+        margin-bottom: 5px;
+    }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+    section h2 {
+        margin-top: 0;
+    }
+
+    section h3 {
+        margin-top: 0;
+    }
+
+    section h4 {
+        margin-top: 0;
+    }
+
+    section h5 {
+        margin-top: 0;
+    }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
