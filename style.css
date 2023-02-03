@@ -21,17 +21,13 @@ header {
 }
 
     header h1 {
-        margin: 0;
+        margin: auto;
         color: #f8f8f2;
     }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-}
-.container {
-    width: 100%;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
 
 #about {
